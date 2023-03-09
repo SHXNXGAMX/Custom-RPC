@@ -13,9 +13,9 @@ class App(QMainWindow):
 		self.ButtonStart.clicked.connect(self.startRPC)
 		self.ButtonStop.clicked.connect(self.stopRPC)
 
-		self.createRPC(self.getInputData())
 
 	def startRPC(self):
+		self.createRPC(self.getInputData())
 		self.blockFields()
 		self.updateRPC()
 
@@ -64,7 +64,7 @@ class App(QMainWindow):
 
 	def createRPC(self, options) -> bool:
 		try:
-			self.RPC = Presence("1083033486560067694")
+			self.RPC = Presence(f"{options['ClientID']}")
 			self.RPC.connect()
 			return True
 
