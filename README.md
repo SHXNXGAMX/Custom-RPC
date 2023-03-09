@@ -5,8 +5,9 @@
 ### Windows
 ```sh
 git clone repo
-python -m venv venv # and activate
-python -m pip install modules
+python -m venv venv 
+call venv/bin/activate.bat
+python -m pip install pyqt5
 ```
 launch `start_app.bat` or in console `start_app.bat`
 
@@ -15,7 +16,7 @@ launch `start_app.bat` or in console `start_app.bat`
 git clone repo
 cd repo
 python3 -m venv venv # and activate (source venv/bin/activate)
-pip install modules
+python3 -m install pyqt5
 python3 main.py # or start.sh
 ```
 

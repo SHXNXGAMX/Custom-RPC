@@ -47,202 +47,407 @@
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
-     <widget class="QLineEdit" name="ClientID">
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(91, 110, 225);</string>
+     <widget class="QFrame" name="frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
       </property>
-      <property name="text">
-       <string>ClientID</string>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
       </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QWidget" name="widget" native="true">
-      <layout class="QGridLayout" name="gridLayout">
-       <item row="0" column="0" colspan="2">
-        <widget class="QLineEdit" name="Details">
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLineEdit" name="ClientID">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
          <property name="styleSheet">
           <string notr="true">background-color: rgb(91, 110, 225);</string>
          </property>
          <property name="text">
-          <string>Details</string>
+          <string>ClientID</string>
          </property>
         </widget>
        </item>
-       <item row="2" column="0" colspan="2">
-        <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QWidget" name="widget" native="true">
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="2" column="0" colspan="2">
+           <widget class="QLineEdit" name="State">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(91, 110, 225);</string>
+            </property>
+            <property name="text">
+             <string>State</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLineEdit" name="LargeImageKey">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(91, 110, 225);</string>
+            </property>
+            <property name="text">
+             <string>LargeImageKey</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="0">
+           <widget class="QLineEdit" name="ButtonName1">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(91, 110, 225);</string>
+            </property>
+            <property name="text">
+             <string>ButtonName 1 or None</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="0">
+           <widget class="QLineEdit" name="SmallImageKey">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(91, 110, 225);</string>
+            </property>
+            <property name="text">
+             <string>SmallImageKey</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="1">
+           <widget class="QLineEdit" name="ButtonUrl2">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(91, 110, 225);</string>
+            </property>
+            <property name="text">
+             <string>URL 2 or None</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0" colspan="2">
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <item>
+             <spacer name="horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="Timestamp">
+              <property name="enabled">
+               <bool>true</bool>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(238, 238, 236);</string>
+              </property>
+              <property name="text">
+               <string>Timestamp</string>
+              </property>
+              <property name="checkable">
+               <bool>true</bool>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_2">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item row="8" column="0">
+           <widget class="QLineEdit" name="ButtonName2">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(91, 110, 225);</string>
+            </property>
+            <property name="text">
+             <string>ButtonName 2 or None</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="1">
+           <widget class="QLineEdit" name="ButtonUrl1">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(91, 110, 225);</string>
+            </property>
+            <property name="text">
+             <string>URL 1 or None</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="1">
+           <widget class="QLineEdit" name="SmallImageText">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(91, 110, 225);</string>
+            </property>
+            <property name="text">
+             <string>SmallImageKey</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="QLineEdit" name="LargeImageText">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(91, 110, 225);</string>
+            </property>
+            <property name="text">
+             <string>LargeImageText</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0" colspan="2">
+           <widget class="QLineEdit" name="Details">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(91, 110, 225);</string>
+            </property>
+            <property name="text">
+             <string>Details</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
          <item>
-          <spacer name="horizontalSpacer">
-           <property name="orientation">
-            <enum>Qt::Horizontal</enum>
-           </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>40</width>
-             <height>20</height>
-            </size>
-           </property>
-          </spacer>
-         </item>
-         <item>
-          <widget class="QCheckBox" name="Timestamp">
+          <widget class="QPushButton" name="ButtonClear">
            <property name="styleSheet">
-            <string notr="true">color: rgb(238, 238, 236);</string>
+            <string notr="true">background-color: rgb(136, 138, 133);</string>
            </property>
            <property name="text">
-            <string>Timestamp</string>
+            <string>Clear</string>
            </property>
           </widget>
          </item>
          <item>
-          <spacer name="horizontalSpacer_2">
-           <property name="orientation">
-            <enum>Qt::Horizontal</enum>
+          <widget class="QPushButton" name="ButtonStop">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(204, 0, 0);</string>
            </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>40</width>
-             <height>20</height>
-            </size>
+           <property name="text">
+            <string>Stop</string>
            </property>
-          </spacer>
+           <property name="icon">
+            <iconset>
+             <normaloff>assets/discord.png</normaloff>assets/discord.png</iconset>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="ButtonStart">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(115, 210, 22);</string>
+           </property>
+           <property name="text">
+            <string>Start</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>assets/discord.png</normaloff>assets/discord.png</iconset>
+           </property>
+          </widget>
          </item>
         </layout>
        </item>
-       <item row="6" column="0">
-        <widget class="QLineEdit" name="ButtonName2">
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(91, 110, 225);</string>
-         </property>
-         <property name="text">
-          <string>ButtonName 2 or None</string>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="1">
-        <widget class="QLineEdit" name="ButtonUrl1">
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(91, 110, 225);</string>
-         </property>
-         <property name="text">
-          <string>URL 1 or None</string>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="0">
-        <widget class="QLineEdit" name="ButtonName1">
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(91, 110, 225);</string>
-         </property>
-         <property name="text">
-          <string>ButtonName 1 or None</string>
-         </property>
-        </widget>
-       </item>
-       <item row="6" column="1">
-        <widget class="QLineEdit" name="ButtonUrl2">
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(91, 110, 225);</string>
-         </property>
-         <property name="text">
-          <string>URL 2 or None</string>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="0">
-        <widget class="QLineEdit" name="LargeImageKey">
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(91, 110, 225);</string>
-         </property>
-         <property name="text">
-          <string>LargeImageKey</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="0" colspan="2">
-        <widget class="QLineEdit" name="State">
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(91, 110, 225);</string>
-         </property>
-         <property name="text">
-          <string>State</string>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="1">
-        <widget class="QLineEdit" name="LargeImageText">
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(91, 110, 225);</string>
-         </property>
-         <property name="text">
-          <string>LargeImageText</string>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="0">
-        <widget class="QLineEdit" name="SmallImageKey">
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(91, 110, 225);</string>
-         </property>
-         <property name="text">
-          <string>SmallImageKey</string>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="1">
-        <widget class="QLineEdit" name="SmallImageText">
-         <property name="styleSheet">
-          <string notr="true">background-color: rgb(91, 110, 225);</string>
-         </property>
-         <property name="text">
-          <string>SmallImageKey</string>
-         </property>
-        </widget>
-       </item>
       </layout>
      </widget>
-    </item>
-    <item>
-     <layout class="QHBoxLayout" name="horizontalLayout">
-      <item>
-       <widget class="QPushButton" name="ButtonClear">
-        <property name="styleSheet">
-         <string notr="true">background-color: rgb(136, 138, 133);</string>
-        </property>
-        <property name="text">
-         <string>Clear</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QPushButton" name="ButtonStop">
-        <property name="styleSheet">
-         <string notr="true">background-color: rgb(204, 0, 0);</string>
-        </property>
-        <property name="text">
-         <string>Stop</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QPushButton" name="ButtonStart">
-        <property name="styleSheet">
-         <string notr="true">background-color: rgb(115, 210, 22);</string>
-        </property>
-        <property name="text">
-         <string>Start</string>
-        </property>
-        <property name="icon">
-         <iconset>
-          <normaloff>assets/discord.png</normaloff>assets/discord.png</iconset>
-        </property>
-       </widget>
-      </item>
-     </layout>
     </item>
    </layout>
   </widget>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>ButtonClear</sender>
+   <signal>clicked()</signal>
+   <receiver>ClientID</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>38</x>
+     <y>238</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>21</x>
+     <y>16</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ButtonClear</sender>
+   <signal>clicked()</signal>
+   <receiver>Details</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>58</x>
+     <y>238</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>59</x>
+     <y>58</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ButtonClear</sender>
+   <signal>clicked()</signal>
+   <receiver>State</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>74</x>
+     <y>238</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>34</x>
+     <y>80</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ButtonClear</sender>
+   <signal>clicked()</signal>
+   <receiver>LargeImageKey</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>48</x>
+     <y>238</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>51</x>
+     <y>131</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ButtonClear</sender>
+   <signal>clicked()</signal>
+   <receiver>SmallImageKey</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>72</x>
+     <y>238</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>63</x>
+     <y>154</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ButtonClear</sender>
+   <signal>clicked()</signal>
+   <receiver>ButtonName1</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>78</x>
+     <y>238</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>48</x>
+     <y>176</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ButtonClear</sender>
+   <signal>clicked()</signal>
+   <receiver>ButtonName2</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>84</x>
+     <y>238</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>67</x>
+     <y>197</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ButtonClear</sender>
+   <signal>clicked()</signal>
+   <receiver>LargeImageText</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>90</x>
+     <y>238</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>256</x>
+     <y>131</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ButtonClear</sender>
+   <signal>clicked()</signal>
+   <receiver>SmallImageText</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>86</x>
+     <y>238</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>244</x>
+     <y>154</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ButtonClear</sender>
+   <signal>clicked()</signal>
+   <receiver>ButtonUrl1</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>90</x>
+     <y>238</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>247</x>
+     <y>176</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ButtonClear</sender>
+   <signal>clicked()</signal>
+   <receiver>ButtonUrl2</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>90</x>
+     <y>238</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>254</x>
+     <y>197</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>
