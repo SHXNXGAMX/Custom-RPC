@@ -64,6 +64,9 @@
           <string notr="true">background-color: rgb(91, 110, 225);</string>
          </property>
          <property name="text">
+          <string/>
+         </property>
+         <property name="placeholderText">
           <string>ClientID</string>
          </property>
         </widget>
@@ -77,6 +80,9 @@
              <string notr="true">background-color: rgb(91, 110, 225);</string>
             </property>
             <property name="text">
+             <string/>
+            </property>
+            <property name="placeholderText">
              <string>State</string>
             </property>
            </widget>
@@ -87,7 +93,10 @@
              <string notr="true">background-color: rgb(91, 110, 225);</string>
             </property>
             <property name="text">
-             <string>LargeImageKey</string>
+             <string/>
+            </property>
+            <property name="placeholderText">
+             <string>Large Image Key</string>
             </property>
            </widget>
           </item>
@@ -97,7 +106,10 @@
              <string notr="true">background-color: rgb(91, 110, 225);</string>
             </property>
             <property name="text">
-             <string>ButtonName 1 or None</string>
+             <string/>
+            </property>
+            <property name="placeholderText">
+             <string>Button 1 Name</string>
             </property>
            </widget>
           </item>
@@ -107,7 +119,10 @@
              <string notr="true">background-color: rgb(91, 110, 225);</string>
             </property>
             <property name="text">
-             <string>SmallImageKey</string>
+             <string/>
+            </property>
+            <property name="placeholderText">
+             <string>Small Image Key</string>
             </property>
            </widget>
           </item>
@@ -117,7 +132,10 @@
              <string notr="true">background-color: rgb(91, 110, 225);</string>
             </property>
             <property name="text">
-             <string>URL 2 or None</string>
+             <string/>
+            </property>
+            <property name="placeholderText">
+             <string>Button 2 URL</string>
             </property>
            </widget>
           </item>
@@ -176,7 +194,10 @@
              <string notr="true">background-color: rgb(91, 110, 225);</string>
             </property>
             <property name="text">
-             <string>ButtonName 2 or None</string>
+             <string/>
+            </property>
+            <property name="placeholderText">
+             <string>Button 2 Name</string>
             </property>
            </widget>
           </item>
@@ -186,7 +207,10 @@
              <string notr="true">background-color: rgb(91, 110, 225);</string>
             </property>
             <property name="text">
-             <string>URL 1 or None</string>
+             <string/>
+            </property>
+            <property name="placeholderText">
+             <string>Button 1 URL</string>
             </property>
            </widget>
           </item>
@@ -196,7 +220,10 @@
              <string notr="true">background-color: rgb(91, 110, 225);</string>
             </property>
             <property name="text">
-             <string>SmallImageKey</string>
+             <string/>
+            </property>
+            <property name="placeholderText">
+             <string>Small Image Text</string>
             </property>
            </widget>
           </item>
@@ -206,7 +233,10 @@
              <string notr="true">background-color: rgb(91, 110, 225);</string>
             </property>
             <property name="text">
-             <string>LargeImageText</string>
+             <string/>
+            </property>
+            <property name="placeholderText">
+             <string>Large Image Key</string>
             </property>
            </widget>
           </item>
@@ -216,6 +246,9 @@
              <string notr="true">background-color: rgb(91, 110, 225);</string>
             </property>
             <property name="text">
+             <string/>
+            </property>
+            <property name="placeholderText">
              <string>Details</string>
             </property>
            </widget>
@@ -237,6 +270,9 @@
          </item>
          <item>
           <widget class="QPushButton" name="ButtonStop">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
            <property name="styleSheet">
             <string notr="true">background-color: rgb(204, 0, 0);</string>
            </property>
@@ -280,12 +316,12 @@
    <slot>clear()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>38</x>
-     <y>238</y>
+     <x>58</x>
+     <y>309</y>
     </hint>
     <hint type="destinationlabel">
-     <x>21</x>
-     <y>16</y>
+     <x>40</x>
+     <y>35</y>
     </hint>
    </hints>
   </connection>
@@ -296,12 +332,12 @@
    <slot>clear()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>58</x>
-     <y>238</y>
+     <x>78</x>
+     <y>309</y>
     </hint>
     <hint type="destinationlabel">
-     <x>59</x>
-     <y>58</y>
+     <x>87</x>
+     <y>71</y>
     </hint>
    </hints>
   </connection>
@@ -312,12 +348,12 @@
    <slot>clear()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>74</x>
-     <y>238</y>
+     <x>94</x>
+     <y>309</y>
     </hint>
     <hint type="destinationlabel">
      <x>34</x>
-     <y>80</y>
+     <y>92</y>
     </hint>
    </hints>
   </connection>
@@ -328,12 +364,12 @@
    <slot>clear()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>48</x>
-     <y>238</y>
+     <x>68</x>
+     <y>309</y>
     </hint>
     <hint type="destinationlabel">
-     <x>51</x>
-     <y>131</y>
+     <x>79</x>
+     <y>164</y>
     </hint>
    </hints>
   </connection>
@@ -344,12 +380,12 @@
    <slot>clear()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>72</x>
-     <y>238</y>
+     <x>92</x>
+     <y>309</y>
     </hint>
     <hint type="destinationlabel">
-     <x>63</x>
-     <y>154</y>
+     <x>91</x>
+     <y>195</y>
     </hint>
    </hints>
   </connection>
@@ -360,12 +396,12 @@
    <slot>clear()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>78</x>
-     <y>238</y>
+     <x>94</x>
+     <y>309</y>
     </hint>
     <hint type="destinationlabel">
-     <x>48</x>
-     <y>176</y>
+     <x>76</x>
+     <y>226</y>
     </hint>
    </hints>
   </connection>
@@ -376,12 +412,12 @@
    <slot>clear()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>84</x>
-     <y>238</y>
+     <x>94</x>
+     <y>309</y>
     </hint>
     <hint type="destinationlabel">
-     <x>67</x>
-     <y>197</y>
+     <x>95</x>
+     <y>256</y>
     </hint>
    </hints>
   </connection>
@@ -392,12 +428,12 @@
    <slot>clear()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>90</x>
-     <y>238</y>
+     <x>94</x>
+     <y>309</y>
     </hint>
     <hint type="destinationlabel">
-     <x>256</x>
-     <y>131</y>
+     <x>439</x>
+     <y>164</y>
     </hint>
    </hints>
   </connection>
@@ -408,12 +444,12 @@
    <slot>clear()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>86</x>
-     <y>238</y>
+     <x>94</x>
+     <y>309</y>
     </hint>
     <hint type="destinationlabel">
-     <x>244</x>
-     <y>154</y>
+     <x>439</x>
+     <y>195</y>
     </hint>
    </hints>
   </connection>
@@ -424,12 +460,12 @@
    <slot>clear()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>90</x>
-     <y>238</y>
+     <x>94</x>
+     <y>309</y>
     </hint>
     <hint type="destinationlabel">
-     <x>247</x>
-     <y>176</y>
+     <x>439</x>
+     <y>226</y>
     </hint>
    </hints>
   </connection>
@@ -440,12 +476,28 @@
    <slot>clear()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>90</x>
-     <y>238</y>
+     <x>94</x>
+     <y>309</y>
     </hint>
     <hint type="destinationlabel">
-     <x>254</x>
-     <y>197</y>
+     <x>439</x>
+     <y>256</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ButtonClear</sender>
+   <signal>clicked()</signal>
+   <receiver>Timestamp</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>94</x>
+     <y>296</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>376</x>
+     <y>127</y>
     </hint>
    </hints>
   </connection>
