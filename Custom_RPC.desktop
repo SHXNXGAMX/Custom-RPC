@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Custom RPC
+StartupWMClass=rpcui
+Comment=Create custom rpc for discord
+GenericName=RPC UI
+Exec=$HOME/username/...
+Icon=$HOME/username/.../assets/icon.png
+Type=Application
+Categories=Editor;Discord;
